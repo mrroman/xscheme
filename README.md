@@ -3,12 +3,11 @@ XScheme 0.28 port to Linux
 
 This repository contains a port of XScheme 0.28 by David Michael Betz.
 
-# Documentation
+## Documentation
 
 See [this](https://github.com/mrroman/xscheme/edit/master/xscheme.doc)
 
-
-# License
+## License
 
 Copyright (c) 1991, by David Michael Betz, All Rights Reserved
 
