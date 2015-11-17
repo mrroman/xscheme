@@ -3,6 +3,8 @@
 	All Rights Reserved
 	Permission is granted for unrestricted non-commercial use	*/
 
+#include <stdlib.h>
+#include <string.h>
 #include "xscheme.h"
 
 /* virtual machine registers */
@@ -40,9 +42,6 @@ extern LVAL obarray;		/* *OBARRAY* symbol */
 extern LVAL default_object;	/* default object */
 extern LVAL eof_object;		/* eof object */
 extern LVAL true;		/* truth value */
-
-/* external routines */
-extern char *calloc();
 
 /* forward declarations */
 #ifdef __STDC__

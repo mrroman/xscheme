@@ -3,6 +3,7 @@
 	All Rights Reserved
 	Permission is granted for unrestricted non-commercial use	*/
 
+#include <string.h>
 #include "xscheme.h"
 #include "xsbcode.h"
 

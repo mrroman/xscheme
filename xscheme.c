@@ -3,6 +3,7 @@
 	All Rights Reserved
 	Permission is granted for unrestricted non-commercial use	*/
 
+#include <stdlib.h>
 #include "xscheme.h"
 
 /* the program banner */
