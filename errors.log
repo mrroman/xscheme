@@ -1,0 +1,87 @@
+/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+/build/glibc-I9DIZl/glibc-2.19/csu/../sysdeps/x86_64/start.S:118: undefined reference to `main'
+xsmath.o: In function `unary':
+xsmath.c:(.text+0x1041): undefined reference to `osrand'
+xsdmem.o: In function `sweep_segment':
+xsdmem.c:(.text+0xfb7): undefined reference to `osclose'
+xsfun2.o: In function `do_withfile':
+xsfun2.c:(.text+0x923): undefined reference to `osaopen'
+xsfun2.o: In function `xwithfile1':
+xsfun2.c:(.text+0xa32): undefined reference to `osclose'
+xsfun2.o: In function `do_load':
+xsfun2.c:(.text+0xb42): undefined reference to `osaopen'
+xsfun2.o: In function `do_loadloop':
+xsfun2.c:(.text+0xcc6): undefined reference to `osclose'
+xsfun2.o: In function `openfile':
+xsfun2.c:(.text+0x230e): undefined reference to `osaopen'
+xsfun2.c:(.text+0x2323): undefined reference to `osbopen'
+xsfun2.o: In function `xclose':
+xsfun2.c:(.text+0x23f9): undefined reference to `osclose'
+xsfun2.o: In function `xclosei':
+xsfun2.c:(.text+0x24d8): undefined reference to `osclose'
+xsfun2.o: In function `xcloseo':
+xsfun2.c:(.text+0x25b7): undefined reference to `osclose'
+xsfun2.o: In function `xgetfposition':
+xsfun2.c:(.text+0x266f): undefined reference to `ostell'
+xsfun2.o: In function `xsetfposition':
+xsfun2.c:(.text+0x2863): undefined reference to `osseek'
+xsfun2.o: In function `xtranson':
+xsfun2.c:(.text+0x2af6): undefined reference to `osclose'
+xsfun2.c:(.text+0x2b12): undefined reference to `osaopen'
+xsfun2.o: In function `xtransoff':
+xsfun2.c:(.text+0x2b6a): undefined reference to `osclose'
+xsimage.o: In function `xlisave':
+xsimage.c:(.text+0x19): undefined reference to `osbopen'
+xsimage.c:(.text+0x131): undefined reference to `osbputc'
+xsimage.c:(.text+0x193): undefined reference to `osbputc'
+xsimage.c:(.text+0x211): undefined reference to `osbputc'
+xsimage.c:(.text+0x256): undefined reference to `osbputc'
+xsimage.c:(.text+0x2e0): undefined reference to `osbputc'
+xsimage.c:(.text+0x2f9): undefined reference to `osclose'
+xsimage.o: In function `xlirestore':
+xsimage.c:(.text+0x31e): undefined reference to `osbopen'
+xsimage.c:(.text+0x53e): undefined reference to `osbgetc'
+xsimage.c:(.text+0x62b): undefined reference to `osbgetc'
+xsimage.c:(.text+0x647): undefined reference to `osclose'
+xsimage.o: In function `freeimage':
+xsimage.c:(.text+0x701): undefined reference to `osclose'
+xsimage.o: In function `setoffset':
+xsimage.c:(.text+0x7b8): undefined reference to `osbputc'
+xsimage.o: In function `writenode':
+xsimage.c:(.text+0x80d): undefined reference to `osbputc'
+xsimage.c:(.text+0x832): undefined reference to `osbputc'
+xsimage.o: In function `writeptr':
+xsimage.c:(.text+0x87d): undefined reference to `osbputc'
+xsimage.o: In function `readnode':
+xsimage.c:(.text+0x8d4): undefined reference to `osbgetc'
+xsimage.o: In function `readptr':
+xsimage.c:(.text+0x91c): undefined reference to `osbgetc'
+xscheme.o: In function `xlmain':
+xscheme.c:(.text+0x11b): undefined reference to `osinit'
+xscheme.o: In function `usage':
+xscheme.c:(.text+0x214): undefined reference to `ostputs'
+xscheme.o: In function `callerrorhandler':
+xscheme.c:(.text+0x320): undefined reference to `oscheck'
+xscheme.o: In function `xlabort':
+xscheme.c:(.text+0x3f9): undefined reference to `oscheck'
+xscheme.o: In function `xlfatal':
+xscheme.c:(.text+0x420): undefined reference to `oserror'
+xscheme.o: In function `xlwrapup':
+xscheme.c:(.text+0x449): undefined reference to `osclose'
+xscheme.c:(.text+0x44e): undefined reference to `osfinish'
+xsftab.o:(.data+0xf08): undefined reference to `xsystem'
+xsio.o: In function `xlgetc':
+xsio.c:(.text+0x61): undefined reference to `ostgetc'
+xsio.c:(.text+0x82): undefined reference to `osbgetc'
+xsio.c:(.text+0x93): undefined reference to `osagetc'
+xsio.o: In function `xlputc':
+xsio.c:(.text+0x114): undefined reference to `ostputc'
+xsio.c:(.text+0x137): undefined reference to `osbputc'
+xsio.c:(.text+0x14a): undefined reference to `osaputc'
+xsio.o: In function `xlflush':
+xsio.c:(.text+0x155): undefined reference to `osflush'
+xsint.o: In function `xlexecute':
+xsint.c:(.text+0xe1): undefined reference to `oscheck'
+xsint.c:(.text+0x326): undefined reference to `oscheck'
+collect2: error: ld returned 1 exit status
+make: *** [all] Błąd 1
